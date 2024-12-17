@@ -13,10 +13,9 @@ name: Deploy to Amazon ECR
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/*" ]
 
 env:
-  ECR_REPOSITORY: MY_ECR_REPOSITORY
   CONTAINER_NAME: ui-cabinet           # set this to the name of the container in the
 
 permissions:
