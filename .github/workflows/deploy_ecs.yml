@@ -13,7 +13,7 @@ name: Deploy to Amazon ECR
 
 on:
   push:
-    branches: [ "feature/*" ]
+    branches: [ "main" ]
 
 env:
   CONTAINER_NAME: ui-cabinet           # set this to the name of the container in the
